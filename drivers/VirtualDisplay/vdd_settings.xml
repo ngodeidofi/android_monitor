@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vdd_settings>
+  <monitors>
+    <monitor id="0">
+      <!-- Standard Phone and Tablet Resolutions for PhoneMonitor -->
+      <friendly_name>PhoneMonitor Virtual Display</friendly_name>
+      <modes>
+        <!-- Standard Phone 20:9 (Modern smartphones like Samsung Galaxy, Pixel, etc.) -->
+        <mode width="2400" height="1080" refresh_rate="60" />
+        <mode width="2400" height="1080" refresh_rate="120" />
+        
+        <!-- Standard Phone / Monitor 16:9 Landscape -->
+        <mode width="1920" height="1080" refresh_rate="60" />
+        <mode width="1920" height="1080" refresh_rate="120" />
+        
+        <!-- Standard Tablet 16:10 (Samsung Galaxy Tab, Lenovo Tab) -->
+        <mode width="2560" height="1600" refresh_rate="60" />
+        <mode width="1920" height="1200" refresh_rate="60" />
+        
+        <!-- Tablet 5:3 / 3:2 (iPad / Surface aspect ratios) -->
+        <mode width="2000" height="1200" refresh_rate="60" />
+        <mode width="2160" height="1440" refresh_rate="60" />
+
+        <!-- 720p Low Bandwidth mode -->
+        <mode width="1280" height="720" refresh_rate="60" />
+      </modes>
+      <default_mode width="1920" height="1080" refresh_rate="60" />
+    </monitor>
+  </monitors>
+</vdd_settings>

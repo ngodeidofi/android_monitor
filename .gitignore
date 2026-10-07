@@ -1,0 +1,42 @@
+# .NET / Visual Studio
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+.vs/
+*.user
+*.userosscache
+*.suo
+*.userprefs
+*.pidb
+*.booproj
+*.svclog
+
+# Android & Gradle
+.gradle/
+**/build/
+local.properties
+*.iml
+.idea/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Allow gradle wrapper jar
+!gradle/wrapper/gradle-wrapper.jar
+
+# Installer outputs & payloads
+installer/payload/
+installer/output/
+
+# Large third-party tools (>100MB)
+**/VDD Control.exe
+**/VDD Control.pdb
+
+# OS and Editor files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+*.swp
+*~
